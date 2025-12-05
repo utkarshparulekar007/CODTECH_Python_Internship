@@ -1,44 +1,32 @@
-# Task 2 – Automated PDF Report Generation
-### CODTECH Python Programming Internship
+# Task 2 – PDF Report Generation
+### CODTECH Python Internship
 ### Student: Utkarsh Vishwanath Parulekar
 
----
-
 ## 📌 Overview
-This task involves reading data from a file using Python, performing data analysis, and generating a clean, formatted PDF report using the **ReportLab** library.
+This task reads data from a CSV file, analyzes it, and generates a formatted PDF report using Python. The script calculates total sales, average sales, and the month with the highest sales.
 
-A CSV file containing monthly sales data is processed, and important analytics such as total sales, average sales, and highest sales month are calculated and included in the PDF report.
+## 📁 Files
+- report_generator.py  
+- sales_data.csv  
+- Sales_Report.pdf  
+- README.md  
 
----
-
-## 📁 Files Included
-| File Name               | Description |
-|-------------------------|-------------|
-| `sales_data.csv`         | Input dataset used for analysis |
-| `report_generator.py`    | Python script to generate the PDF report |
-| `Sales_Report.pdf`       | Output PDF report generated from the script |
-| `README.md`              | Documentation for Task 2 |
-
----
-
-## 🛠 Technologies Used
+## 🛠 Tools Used
 - Python  
-- Pandas (for data reading and analysis)  
-- ReportLab (for PDF creation)
+- Pandas  
+- ReportLab  
 
----
+## ▶ How to Run
+1. Install libraries:  
+   pip install pandas reportlab  
+2. Keep `sales_data.csv` in the same folder.  
+3. Run:  
+   python report_generator.py  
 
-## 📊 Analysis Performed
-From the CSV file, the script calculates:
-- **Total Sales**
-- **Average Monthly Sales**
-- **Month With Highest Sales**
-- A table listing all months and their sales
+## ✔ Output
+A PDF file named **Sales_Report.pdf** will be created with:  
+- Summary statistics  
+- Highest sale month  
+- Detailed monthly table  
 
-All this information is formatted and exported into a structured PDF.
-
----
-
-## ▶ How to Run This Project
-
-### 1️⃣ Install Required Libraries
+This completes **Task 2**.
