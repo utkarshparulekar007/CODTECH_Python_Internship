@@ -1,25 +1,14 @@
-# AI Chatbot with NLP
+Task 3: AI Chatbot with NLP
 
-## Internship Task 3 – CODTECH
+✔ NLP Library Used: NLTK
+✔ Additional Libraries Used: scikit-learn, numpy
+✔ Deliverables:
+   - chatbot.py
+   - setup.py
+   - output_screenshot.png
 
-This project is an AI chatbot developed using Python and NLTK.
-The chatbot can answer basic user queries using Natural Language Processing.
-
-### Technologies Used
-- Python
-- NLTK
-- Scikit-learn
-
-### How to Run
-1. Install dependencies:
-   pip install nltk scikit-learn numpy
-
-2. Download NLTK data:
-   python setup.py
-
-3. Run chatbot:
-   python chatbot.py
-
-### Sample Interaction
-User: What is Python?  
-Bot: Python is a popular programming language.
+Description:
+This task involves building a command-line based AI chatbot using Python
+and Natural Language Processing techniques. The chatbot processes user
+input using tokenization and lemmatization (NLTK) and responds to basic
+user queries using intent-based logic and NLP similarity matching.
